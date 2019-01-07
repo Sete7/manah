@@ -1,0 +1,195 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17/12/2018, 14:27:09
+    Author     : junio
+*/
+/*CONFIGURAÇÕES GERAIS*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700,800');
+*{margin: 0;padding: 0;box-sizing: border-box;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;font-family: 'Montserrat', sans-serif;}
+.container{width: 100%;float: left;}
+.content-a{width: 90%;margin: 0 5%;float: left;}
+.content-b{width: 80%;margin: 0 10%;float: left;}
+.clear{clear: both;}
+ul{list-style: none;}
+img{float: left;}
+a{text-decoration: none;}
+.font-zero{font-size: 0;}
+/*MAIN-HEADER*/
+.main-header{float: left;}
+.info-header{float: left; position: relative;}
+.main-logo{margin-right: 100px;float: left;}
+/*CONTATO PHONE*/
+.main-contact{position: relative;float: left; margin-top: 71px;margin-right: 85px;font-family: 'Montserrat', sans-serif;}
+.desc-contact-one .p-naumbe{color: #f07c00;font-size: 1.5em;font-weight: 400;}
+.desc-contact-one{float: left;position: relative;}
+.desc-contact-one p{color: #7e7e7e;font-size: 13px;font-weight: bold;}
+.desc-contact-one .p-naumbe span{font-size: 0.6em;}
+.desc-contact-cel{float: left;position: relative;}
+.icon-phone{float: left;margin-right: 0.7em;}
+.desc-contact-cel{color: #7e7e7e;font-size: 13px;font-weight: bold;}
+.desc-contact-cel .p-naumbe{color: #f07c00;font-size: 1.8em !important;;font-weight: 400;}
+.desc-contact-cel .p-naumbe span{font-size: 0.7em !important;font-weight: normal;}
+.desc-contact-cel p{color: #7e7e7e;font-size: 13px !important;font-weight: bold !important;}
+/*CONTACT CEL WHATS APP*/
+.main-contact-cel{position: relative;float: left; margin-top: 71px;}
+.main-contact-cel p{color: #7e7e7e;font-size: 0.6em;font-weight: 300;}
+/*BOX NAV*/
+.bx-nav{border-top: 1px solid #a5a5a5;border-bottom: 1px solid #a5a5a5;float: left;}
+/*MENU*/
+.bx-menu{position: relative;float: left;padding: 1.2em 0;}
+.menu{position: relative;float: left;}
+.menu li{float: left;margin-right: 2.5em;position: relative;}
+.menu li:nth-child(3){margin-right: 0;}
+.menu li a{color: #000000;font-size: 1.3em;font-family: "Montserrat", sans-serif;font-weight: lighter;}
+.manu-active a:after{content: "";width: 152px;height: 7px;background:#f07c00;  position: absolute;top: -19px;left: 0;}
+.agendamento{position: relative;float: right;}
+/*.agendamento{position: relative;float: right;margin-top: 1.2em;}*/
+.menu-agendar{position: relative;float: left;}
+.menu-agendar li{float: left;}
+.menu-agendar li:nth-child(1){margin-right: 48px;}
+.menu-agendar li a{float: left;}
+.icon-social{margin-top: 0.6em;}
+.bxbtnAgendamento{
+    width: 314px;
+    height: 63px;
+    position: relative;
+    background-image: linear-gradient(to right, #ff6b1a , #e9991b); 
+    text-align: center;
+}
+.bxbtnAgendamento a{width: 100%;float: left;color: #fff;line-height: 62px;font-weight: bold;}
+/*SLIDER*/
+.slider{}
+/*MAIN-CONTENT*/
+/*PINOS*/
+.main-content{float: left;position: relative;padding: 4em 0 0 0;}
+.sec-pino{width: 100%; float: left;position: relative; padding: 3em 0;}
+.art-pinos{width: 100%;float: left;position: relative;}
+.pins{width: calc(50% - 5px);float: left; margin: 2.5em 2.5px;}
+.icon-pins{position: relative;}
+.icon-pins img{float: left;margin-right: 2.5em;}
+.desc-pins{padding-top: 1.9em;}
+.pins h2{color: #f07c00;margin-bottom: 0.3em;}
+.pins p{text-align: justify;color: #676767;}
+/*AGENDAMENTO*/
+.sec-scheduling{
+    width: 100%;
+    height: 530px;
+    background: url(../image/bg-agendamento.jpg); 
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    float: left;
+    margin-top: 3em;
+}
+/*ARTICLE AGENDAMENTO*/
+.art-scheduling{width: 100%;float: left;}
+.art-scheduling .content{float: left;}
+.bx-form-scheduling{
+    width: 880px;
+    margin: auto;
+    position: relative;
+    padding-top: 131px;
+    float: left;
+}
+.bx-form-scheduling h2{color: #fff;font-family: "Montserrat", sans-serif;font-size: 2em;font-weight: 400px;margin-bottom: 30px;}
+.form-scheduling{width: 100%;float: left;}
+.form-scheduling .form-group{width: 100%;float: left;position: relative;margin-bottom: 1.5em;}
+.bx-select-row{position: relative;float: left;margin-right: 20px;}
+.form-scheduling .form-group .select-row{width: 31.8em;height: 40px;font-family: "Montserrat", sans-serif;color: #585858;float: left;padding-left: 4em;outline: none;border: 0;}
+.icon-schidulen-tooth{position: absolute;top: 8px; left: 11px;}
+
+.bx-calendar{float: left;position: relative;margin-right: 20px;}
+.bx-calendar .date{width: 15.4em;height: 40px;float: left;font-family: "Montserrat", sans-serif;color: #585858;padding-left: 4em;outline: none;border: 0;}
+.icon-schidulen-calendar{position: absolute;top: 8px; left: 11px;}
+.bx-clock{float: left;background: red;position: relative;}
+.bx-clock .clock{width: 15.4em;height: 40px;float: left;font-family: "Montserrat", sans-serif;color: #585858;padding-left: 4em;outline: none;border: 0;}
+.icon-schidulen-clock{position: absolute;top: 8px; left: 11px;}
+.bx-name{position: relative;float: left;margin-right: 20px;}
+.bx-name .name{width: 31.8em;height: 40px;float: left;font-family: "Montserrat", sans-serif;color: #585858;padding-left: 4em;outline: none;border: 0;}
+.icon-schidulen-name{position: absolute;top: 8px; left: 11px;}
+.bx-mail{position: relative;float: left;}
+.bx-mail .mail{width: 31.8em;height: 40px;float: left;font-family: "Montserrat", sans-serif;color: #585858;padding-left: 4em;outline: none;border: 0;}
+.icon-schidulen-mail{position: absolute;top: 8px; left: 11px;}
+.bx-phone{position: relative;float: left;margin-right: 20px;}
+.bx-phone .phone{width: 19.4em;height: 40px;float: left;font-family: "Montserrat", sans-serif;color: #585858;padding-left: 4em;outline: none;border: 0;}
+.icon-schidulen-phone{position: absolute;top: 8px; left: 11px;}
+.bx-btn{width: 170px;height: 40px;position: relative;float: left;background: red;}
+.bx-btn .btnMarcar{    
+    width: 12.8em;
+    height: 40px;
+    float: left;
+    border: 0;
+    outline: none;
+    background: #e05a00;
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+}
+.bx-btn .btnMarcar:hover{background: #ff6802;}
+/*QUEM SOMOS*/
+.sec-about{padding: 10em 0 7em 0;float: left;position: relative;}
+.box-container-about{width: 100%;height: 500px;float: left;}
+.art-about{width: 100%;background: red; position: relative;top: -40px;}
+.bx-about{width: calc(50% - 1%);float: left;}
+.bx-about:nth-child(1){margin-right: 1%;float: left;}
+.thumb-about{width: 100%;float: left;}
+.thumb-about:nth-child(1){margin-bottom: 2em;float: left;}
+.thumb-about img{width: 100%;height: 273px;float: left;}
+.desc-about{width: 100%;float: left;padding: 0.5em 0 0 1em;}
+.title-about{width: 100%;height: 73px;float: left;background-image: linear-gradient(to right, #ff6b1a , #e9991b);padding-left: 36px;margin-bottom: 70px;}
+.title-about h2{color: #fff;line-height: 73px;font-size: 2.1em;}
+.text-about{width: 100%;float: left;text-align: justify;}
+.text-about p{color: #000;font-family: "Montserrat", sans-serif;font-size: 1.1em;}
+.text-about p:nth-child(1){margin-bottom: 2em;}
+/*MAIN FOOTER*/
+.main-footer{float: left;}
+.sec-contact{
+    width: 100%;
+    height: 785px;
+    float: left;
+    background: url(../image/bg-contact.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/*CONTATO*/
+.art-contact{width: 50%;float: right;}
+.bx-contact{margin-top: 215px;float: left;}
+.bx-contact h2{color: #fff;margin-bottom: 30px;}
+.form-contact{width: 559px;height: auto;float: left;}
+.form-contact .form-group{float: left;position: relative;margin-bottom: 19px;}
+.form-contact .form-group .name{position: relative;width: 559px;height: 41px;outline: none;border: 0;padding:  0 0 0 40px;}
+.form-contact .form-group .name::placeholder{color: #585858;text-transform: uppercase;}
+.form-contact .form-group img{position: absolute;left: 0;top: 0; margin-top: 9px;margin-left: 8px;}
+.row-mail{float: left;margin-right: 19px;} 
+.row-mail .mail{width: 316px;height: 41px;float: left;padding:  0 0 0 40px;outline: none;border: 0;} 
+.row-mail .mail::placeholder{color: #585858;text-transform: uppercase;}
+.row-phone{float: left;position: relative;} 
+.row-phone .phone{width: 224px;height: 41px;float: left;padding:  0 0 0 40px;outline: none;border: 0;} 
+.row-phone .phone::placeholder{color: #585858;text-transform: uppercase;}
+
+.row-description{float: left;position: relative;}
+.row-description .description{width: 559px;height: 97px;outline: none;border: 0;padding:  0 0 0 40px;margin-bottom: 19px;}
+.row-description .description::placeholder{color: #585858;text-transform: uppercase;}
+.row-description img{position: absolute;margin-top: 9px;margin-left: 8px;left: 0;top: 0;}
+.row-btn-contact{float: right;}
+.row-btn-contact .btn-contact{
+    width: 163px;
+    height: 41px;
+    text-align: center;
+    background: #e05a00;border: 0;
+    color: #fff;font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6em;
+}
+.row-btn-contact .btn-contact:hover{background: #ff7e27;}
+/*COPY*/
+.bx-copy{height: 134px;background-image: linear-gradient(to right, #ff6b1a , #e9991b);}
+.copy{text-align: center;font-size: 1.4em;color: #fff;line-height: 134px;}
+.copy p a{color: #fff;margin-left: 0.5em;}
